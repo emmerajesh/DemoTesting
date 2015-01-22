@@ -14,6 +14,7 @@
 		18D2E7EB1A70D01B006FC627 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18D2E7EA1A70D01B006FC627 /* Images.xcassets */; };
 		18D2E7EE1A70D01B006FC627 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18D2E7EC1A70D01B006FC627 /* LaunchScreen.xib */; };
 		18D2E7FA1A70D01B006FC627 /* SourceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D2E7F91A70D01B006FC627 /* SourceTests.m */; };
+		18D2E8051A70DD7F006FC627 /* Annotations.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D2E8041A70DD7F006FC627 /* Annotations.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		18D2E7F31A70D01B006FC627 /* SourceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SourceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18D2E7F81A70D01B006FC627 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18D2E7F91A70D01B006FC627 /* SourceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SourceTests.m; sourceTree = "<group>"; };
+		18D2E8031A70DD7F006FC627 /* Annotations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Annotations.h; sourceTree = "<group>"; };
+		18D2E8041A70DD7F006FC627 /* Annotations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Annotations.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 		18D2E7D11A70D01B006FC627 = {
 			isa = PBXGroup;
 			children = (
+				18D2E8031A70DD7F006FC627 /* Annotations.h */,
+				18D2E8041A70DD7F006FC627 /* Annotations.m */,
 				18D2E7DC1A70D01B006FC627 /* Source */,
 				18D2E7F61A70D01B006FC627 /* SourceTests */,
 				18D2E7DB1A70D01B006FC627 /* Products */,
@@ -221,6 +226,7 @@
 			files = (
 				18D2E7E61A70D01B006FC627 /* ViewController.m in Sources */,
 				18D2E7E31A70D01B006FC627 /* AppDelegate.m in Sources */,
+				18D2E8051A70DD7F006FC627 /* Annotations.m in Sources */,
 				18D2E7E01A70D01B006FC627 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +418,7 @@
 				18D2E7FF1A70D01B006FC627 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18D2E8001A70D01B006FC627 /* Build configuration list for PBXNativeTarget "SourceTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +427,7 @@
 				18D2E8021A70D01B006FC627 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
